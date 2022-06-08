@@ -11,6 +11,8 @@ app.get("/", (req, res) => {
 
 app.listen(port, () => {
   console.log(`Start app listening at http://localhost:${port}`);
+  console.log(`Start app listening at http://localhost:${port}`);
+  console.log(`Start app listening at http://localhost:${port}`);
 });
 
 app.get("/individual-informations/:email", (req, res) => {
